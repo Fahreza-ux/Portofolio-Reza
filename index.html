@@ -1,11 +1,120 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <title>Portofolio Reza</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Reza</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: #0d0f16;
+            color: white;
+        }
+        header {
+            text-align: center;
+            padding: 100px 20px;
+            background: linear-gradient(135deg, #4C5BFF, #6E44FF, #B03BFF);
+            border-radius: 0 0 30px 30px;
+        }
+        header h1 {
+            font-size: 45px;
+            margin: 0;
+            font-weight: 700;
+        }
+        header p {
+            margin-top: 10px;
+            font-size: 18px;
+            opacity: 0.9;
+        }
+        section {
+            padding: 60px 20px;
+            max-width: 1100px;
+            margin: auto;
+        }
+        .section-title {
+            font-size: 28px;
+            margin-bottom: 25px;
+            font-weight: 600;
+        }
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 25px;
+        }
+        .card {
+            background: #151824;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(255,255,255,0.05);
+            transition: 0.2s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 0 25px rgba(255,255,255,0.12);
+        }
+        footer {
+            text-align: center;
+            padding: 25px;
+            margin-top: 50px;
+            background: #131620;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            border-radius: 20px 20px 0 0;
+        }
+        a {
+            color: #7C8BFF;
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
-  <h1>Halo, saya Reza</h1>
-  <p>Ini portofolio web saya.</p>
+
+<header>
+    <h1>Reza</h1>
+    <p>Web Developer • UI/UX Enthusiast • IT Learner</p>
+</header>
+
+<section>
+    <div class="section-title">Tentang Saya</div>
+    <p style="line-height: 1.7;">
+        Saya sedang mengembangkan keahlian di bidang Web Development dan UI/UX.
+        Saya membuat portofolio ini sebagai langkah awal untuk masuk ke dunia kerja IT,
+        sambil terus belajar membuat project yang lebih baik.
+    </p>
+</section>
+
+<section>
+    <div class="section-title">Skill</div>
+    <div class="card-grid">
+        <div class="card">HTML</div>
+        <div class="card">CSS</div>
+        <div class="card">UI/UX (Figma)</div>
+        <div class="card">Responsive Design</div>
+        <div class="card">Git & GitHub</div>
+    </div>
+</section>
+
+<section>
+    <div class="section-title">Project</div>
+    <div class="card-grid">
+        <div class="card">
+            <strong>Portofolio Website</strong><br><br>
+            Website ini dibuat sebagai identitas digital saya.
+        </div>
+        <div class="card">
+            <strong>UI/UX Mobile App</strong><br><br>
+            Desain aplikasi mobile sederhana sebagai latihan layouting.
+        </div>
+        <div class="card">
+            <strong>Landing Page Produk</strong><br><br>
+            Landing page modern untuk latihan struktur dan visual.
+        </div>
+    </div>
+</section>
+
+<footer>
+    Kontak: reza@example.com • WhatsApp: 08xxxxxxxxxx
+</footer>
+
 </body>
-</html>
+  </html>
