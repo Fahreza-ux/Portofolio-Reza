@@ -12,3 +12,10 @@
 
 ### Tools & Utilities
 - [Bensin Kalkulator](https://github.com/Fahreza-ux/Bensin-Kalkulator)
+
+  
+## 🔥 Featured Projects
+
+### 🌈 LED Rainbow Controller 
+**IoT Project** - Arduino/ESP32 LED strip dengan kontrol WiFi
+[View Project →](https://github.com/Fahreza-ux/led-rainbow-project)
