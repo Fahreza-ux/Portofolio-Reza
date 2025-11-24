@@ -78,6 +78,8 @@
             background: rgba(255, 255, 255, 0.1);
             border-radius: 50%;
             transition: all 0.3s;
+            color: white;
+            text-decoration: none;
         }
         
         .social-links a:hover {
@@ -219,6 +221,7 @@
             transition: all 0.3s;
             text-decoration: none;
             font-weight: 500;
+            display: inline-block;
         }
         
         .demo-btn {
@@ -244,6 +247,17 @@
             background: #131620;
             border-top: 1px solid rgba(255,255,255,0.1);
             border-radius: 20px 20px 0 0;
+        }
+        
+        footer a {
+            color: #7C8BFF;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        footer a:hover {
+            color: #9aa7ff;
+            text-decoration: underline;
         }
         
         /* Animations */
@@ -310,6 +324,10 @@
             border-top: 1px solid rgba(0,0,0,0.1);
         }
         
+        .light-mode footer a {
+            color: #667eea;
+        }
+        
         /* Responsive */
         @media (max-width: 768px) {
             header h1 {
@@ -346,10 +364,18 @@
                 <i class="fas fa-user"></i>
             </div>
             <div class="social-links">
-                <a href="#"><i class="fab fa-github"></i></a>
-                <a href="#"><i class="fab fa-linkedin"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/Fahreza-ux" target="_blank" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/muhammad-fahreza-ramadhan-328a8325b/" target="_blank" title="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="#" title="Twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" title="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
             </div>
         </div>
     </header>
@@ -452,7 +478,12 @@
 
     <!-- Footer -->
     <footer>
-        <p>Kontak: fahrezaid97@gmail.com • WhatsApp: 085211352875</p>
+        <p>
+            Kontak: 
+            <a href="mailto:fahrezaid97@gmail.com">fahrezaid97@gmail.com</a> • 
+            <a href="https://wa.me/6285211352875" target="_blank">WhatsApp: 085211352875</a> •
+            <a href="https://www.linkedin.com/in/muhammad-fahreza-ramadhan-328a8325b/" target="_blank">LinkedIn</a>
+        </p>
         <p style="margin-top: 10px; opacity: 0.7;">&copy; 2023 Muhammad Fahreza Ramadhan. All rights reserved.</p>
     </footer>
 
