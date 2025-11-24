@@ -48,24 +48,25 @@
         }
         
         .profile-pic {
-            width: 120px;
-            height: 120px;
+            width: 150px;
+            height: 150px;
             border-radius: 50%;
             border: 4px solid white;
-            margin-bottom: 15px;
-            background: linear-gradient(45deg, #FF6B6B, #FF8E53);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 40px;
-            color: white;
             margin: 0 auto 15px;
+            object-fit: cover;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+            transition: transform 0.3s ease;
+            display: block;
+        }
+        
+        .profile-pic:hover {
+            transform: scale(1.05);
         }
         
         .social-links {
             display: flex;
             justify-content: center;
-            gap: 15px;
+            gap: 20px;
             margin-top: 15px;
         }
         
@@ -73,13 +74,14 @@
             display: inline-flex;
             align-items: center;
             justify-content: center;
-            width: 40px;
-            height: 40px;
+            width: 45px;
+            height: 45px;
             background: rgba(255, 255, 255, 0.1);
             border-radius: 50%;
             transition: all 0.3s;
             color: white;
             text-decoration: none;
+            font-size: 18px;
         }
         
         .social-links a:hover {
@@ -345,6 +347,11 @@
             .project-links {
                 flex-direction: column;
             }
+            
+            .profile-pic {
+                width: 120px;
+                height: 120px;
+            }
         }
     </style>
 </head>
@@ -360,22 +367,15 @@
         <p>Web Developer • UI/UX Enthusiast • IT Learner • Finance & Tax</p>
         
         <div class="profile-container">
-            <div class="profile-pic">
-                <img src="images/foto-profil.jpg" alt="Muhammad Fahreza Ramadhan" class="profile-pic">
-                <i class="fas fa-user"></i>
-            </div>
+            <!-- FOTO PROFIL -->
+            <img src="images/Muhammad%20Fahreza%20Ramadhan.jpg" alt="Muhammad Fahreza Ramadhan" class="profile-pic">
+            
             <div class="social-links">
                 <a href="https://github.com/Fahreza-ux" target="_blank" title="GitHub">
                     <i class="fab fa-github"></i>
                 </a>
                 <a href="https://www.linkedin.com/in/muhammad-fahreza-ramadhan-328a8325b/" target="_blank" title="LinkedIn">
                     <i class="fab fa-linkedin"></i>
-                </a>
-                <a href="#" title="Twitter">
-                    <i class="fab fa-twitter"></i>
-                </a>
-                <a href="#" title="Instagram">
-                    <i class="fab fa-instagram"></i>
                 </a>
             </div>
         </div>
